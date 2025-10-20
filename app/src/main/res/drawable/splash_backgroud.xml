@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <color android:color="@color/your_splash_background_color"/>
+    </item>
+
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/baseline_2k_24" />
+    </item>
+<!--
+    <item>
+        <vector
+            android:width="100dp"
+            android:height="300dp"
+            android:viewportWidth="100"
+            android:viewportHeight="300">
+
+            <group
+                android:name="logo_group"
+                android:translateX="12"
+                android:translateY="12">
+                <bitmap
+                    android:gravity="center"
+                    android:src="@drawable/baseline_2k_24" />
+            </group>
+
+            <group
+                android:name="progress_group"
+                android:translateX="12"
+                android:translateY="100">
+                <path
+                    android:name="progress_path"
+                    android:strokeColor="#FFFFFFFF"
+                    android:strokeWidth="4"
+                    android:pathData="M36 0 A36 36 0 1 1 35.99 0"
+                    android:trimPathStart="0.0"
+                    android:trimPathEnd="0.8"
+                    android:trimPathOffset="0.0" />
+            </group>
+        </vector>
+    </item>-->
+
+
+</layer-list>

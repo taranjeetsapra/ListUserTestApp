@@ -1,0 +1,7 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/icon_and_progress_combined">
+
+    <target
+        android:name="progress_group"
+        android:animation="@animator/rotate_progress_anim" />
+</animated-vector>
